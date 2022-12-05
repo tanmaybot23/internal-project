@@ -1,0 +1,33 @@
+<form [formGroup]="productForm">
+<div class="form1">
+<div class="form-outline mb-4">
+
+    <input formControlName="code" type="text" id="form7Example1" class="form-control" placeholder="Source Code"/>
+  </div>
+  
+  <div class="form-outline mb-4">
+    <input formControlName="camid" type="text" id="form7Example2" class="form-control" placeholder="CAM ID"/>
+  </div>
+
+  <div class="form-outline mb-4">
+    <input formControlName="assetid" type="text" id="form7Example2" class="form-control" placeholder="ASSET ID"/>
+  </div>
+
+  <div class="form-outline mb-4">
+    <input formControlName="rid" type="text" id="form7Example2" class="form-control" placeholder="RUN INSTANCE ID"/>
+  </div>
+
+  <div class="form-outline mb-4">
+    <input  formControlName="cusip" type="text" id="form7Example2" class="form-control" placeholder="CUSIP"/>
+  </div>
+
+  <div class="form-outline mb-4">
+    <input formControlName="fcode" type="text" id="form7Example2" class="form-control" placeholder="FEED CODE"/>
+  </div>
+
+  <div class="form-outline mb-4">
+    <input formControlName="paid" type="text" id="form7Example2" class="form-control" placeholder="PAM ACCT ID"/>
+  </div>
+  <button class="btn btn-primary" (click)="toShow()">Submit</button>
+</div>
+</form>
